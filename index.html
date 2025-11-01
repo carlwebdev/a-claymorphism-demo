@@ -19,6 +19,7 @@
       </div>
       <ul class="nav__links">
         <li><a href="#features">Features</a></li>
+        <li><a href="#styleguide">Styleguide</a></li>
         <li><a href="#gallery">Gallery</a></li>
         <li><a href="#pricing">Pricing</a></li>
       </ul>
@@ -108,7 +109,66 @@
       </div>
     </section>
 
-    <section id="gallery" class="section section--alt">
+    <section id="styleguide" class="section section--alt">
+      <div class="section__heading">
+        <span class="badge">Design system</span>
+        <h2>Claymorphism styleguide</h2>
+        <p>Key references to keep typography, color, and depth consistent across the experience.</p>
+      </div>
+      <div class="styleguide-grid">
+        <article class="styleguide-card card card--floating">
+          <header class="styleguide-card__header">
+            <span class="styleguide-card__icon">🔤</span>
+            <h3>Typography</h3>
+          </header>
+          <p>Use the Poppins family with medium weight headlines and regular body copy for approachable, rounded forms.</p>
+          <div class="type-demo">
+            <span class="type-demo__label">Headline</span>
+            <span class="type-demo__sample">Poppins Medium 32px</span>
+            <span class="type-demo__label">Body</span>
+            <span class="type-demo__sample type-demo__sample--body">Poppins Regular 16px</span>
+          </div>
+        </article>
+        <article class="styleguide-card card card--floating">
+          <header class="styleguide-card__header">
+            <span class="styleguide-card__icon">🌈</span>
+            <h3>Color palette</h3>
+          </header>
+          <p>Lean on soft gradients that blend lavender, peach, and sky tones with neutral surfaces for balanced contrast.</p>
+          <div class="swatch-list">
+            <div class="swatch" aria-label="Gradient from #f7d9ff to #c1e5ff">
+              <span class="swatch__fill swatch__fill--gradient"></span>
+              <span class="swatch__meta">#f7d9ff → #c1e5ff</span>
+            </div>
+            <div class="swatch" aria-label="Neutral surface color #f1f0ff">
+              <span class="swatch__fill" style="background:#f1f0ff"></span>
+              <span class="swatch__meta">#f1f0ff</span>
+            </div>
+            <div class="swatch" aria-label="Text color #2f2a4a">
+              <span class="swatch__fill" style="background:#2f2a4a"></span>
+              <span class="swatch__meta">#2f2a4a</span>
+            </div>
+          </div>
+        </article>
+        <article class="styleguide-card card card--floating">
+          <header class="styleguide-card__header">
+            <span class="styleguide-card__icon">🪄</span>
+            <h3>Depth effects</h3>
+          </header>
+          <p>Pair diffused drop shadows with soft inner highlights to simulate molded, dimensional surfaces.</p>
+          <div class="depth-demo">
+            <div class="depth-demo__outer">Outer shadow</div>
+            <div class="depth-demo__inner">Inner highlight</div>
+          </div>
+          <ul class="depth-tokens">
+            <li>Outer: 12px 12px 24px rgba(15, 23, 42, 0.25)</li>
+            <li>Inner: inset -8px -8px 16px rgba(255, 255, 255, 0.75)</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
       <div class="section__heading">
         <span class="badge">Inspiration</span>
         <h2>Gallery of forms</h2>
