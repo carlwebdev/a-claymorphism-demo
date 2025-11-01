@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Claymorphism UI Prototype</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="hero">
+    <nav class="nav">
+      <div class="brand">
+        <span class="brand__icon">⬡</span>
+        <span class="brand__name">ClaySpace</span>
+      </div>
+      <ul class="nav__links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+      </ul>
+      <button class="btn btn--primary">Get Started</button>
+    </nav>
+    <div class="hero__content">
+      <div class="hero__text card card--floating">
+        <h1>Soft, tactile interfaces.</h1>
+        <p>
+          Claymorphism blends subtle gradients, delicate highlights, and long, hazy shadows
+          to create UI that feels handcrafted and touchable.
+        </p>
+        <div class="hero__actions">
+          <button class="btn btn--primary">Explore components</button>
+          <button class="btn btn--ghost">View docs</button>
+        </div>
+      </div>
+      <div class="hero__showcase">
+        <div class="card card--panel">
+          <div class="card__header">
+            <span class="dot dot--pink"></span>
+            <span class="dot dot--orange"></span>
+            <span class="dot dot--mint"></span>
+          </div>
+          <div class="card__body">
+            <div class="tile tile--wide">
+              <div class="tile__icon">🌤️</div>
+              <div>
+                <h3>Weather overview</h3>
+                <p>Soft light, high contrast, 72°F outside</p>
+              </div>
+            </div>
+            <div class="tile-grid">
+              <div class="tile">
+                <div class="tile__icon">📈</div>
+                <h4>Insights</h4>
+                <p>Organic growth +18%</p>
+              </div>
+              <div class="tile">
+                <div class="tile__icon">🎨</div>
+                <h4>Palette</h4>
+                <p>Cotton candy gradients</p>
+              </div>
+              <div class="tile">
+                <div class="tile__icon">🪄</div>
+                <h4>Effects</h4>
+                <p>Soft inner glow, ambient blur</p>
+              </div>
+              <div class="tile">
+                <div class="tile__icon">💡</div>
+                <h4>Ideas</h4>
+                <p>Shapes that feel sculpted</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="features" class="section">
+      <div class="section__heading">
+        <span class="badge">Why claymorphism</span>
+        <h2>What makes the look</h2>
+        <p>A quick primer on the signature traits of clay-inspired interfaces.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature card card--floating">
+          <h3>Gradient skins</h3>
+          <p>
+            Soft, pastel gradients replace flat fills to mimic hand-molded material and create depth without harsh shadows.
+          </p>
+        </article>
+        <article class="feature card card--floating">
+          <h3>Long, blurred shadows</h3>
+          <p>
+            Ambient, offset shadows give every element a hovering feel, as if it has been lifted gently from the background.
+          </p>
+        </article>
+        <article class="feature card card--floating">
+          <h3>Inner highlights</h3>
+          <p>
+            Subtle inset glows and top-edge highlights emulate the way light diffuses across soft, malleable materials.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="section section--alt">
+      <div class="section__heading">
+        <span class="badge">Inspiration</span>
+        <h2>Gallery of forms</h2>
+        <p>Use these component ideas as starting points for your own clay UI explorations.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-card card card--floating">
+          <div class="gallery-card__icon">🎛️</div>
+          <h3>Control clusters</h3>
+          <p>Group toggles, sliders, and buttons in soft pods with rounded pockets.</p>
+        </div>
+        <div class="gallery-card card card--floating">
+          <div class="gallery-card__icon">💬</div>
+          <h3>Dialogue bubbles</h3>
+          <p>Round off corners and add delicate inner shadows for tactile messaging.</p>
+        </div>
+        <div class="gallery-card card card--floating">
+          <div class="gallery-card__icon">📦</div>
+          <h3>Product displays</h3>
+          <p>Layer cards with varying elevation to create a sculpted shelf effect.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section">
+      <div class="section__heading">
+        <span class="badge">Plans</span>
+        <h2>Shape your toolkit</h2>
+        <p>Select the kit that fits your prototyping workflow.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card card card--floating">
+          <h3>Starter</h3>
+          <p class="price">Free</p>
+          <ul>
+            <li>5 clay components</li>
+            <li>Community presets</li>
+            <li>Figma starter file</li>
+          </ul>
+          <button class="btn btn--ghost">Try now</button>
+        </div>
+        <div class="pricing-card card card--highlight">
+          <span class="badge badge--accent">Popular</span>
+          <h3>Studio</h3>
+          <p class="price">$18</p>
+          <ul>
+            <li>50 components &amp; styles</li>
+            <li>Advanced motion pack</li>
+            <li>Priority support</li>
+          </ul>
+          <button class="btn btn--primary">Buy now</button>
+        </div>
+        <div class="pricing-card card card--floating">
+          <h3>Agency</h3>
+          <p class="price">$49</p>
+          <ul>
+            <li>Unlimited projects</li>
+            <li>Team collaboration</li>
+            <li>Custom assets</li>
+          </ul>
+          <button class="btn btn--ghost">Book a demo</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Crafted with soft shadows and joyful gradients.</p>
+    <div class="footer__links">
+      <a href="#">Instagram</a>
+      <a href="#">Dribbble</a>
+      <a href="#">Behance</a>
+    </div>
+  </footer>
+</body>
+</html>
